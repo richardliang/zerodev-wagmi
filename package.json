@@ -48,8 +48,8 @@
     "build": "npm run clean && npm run build:cjs && npm run build:esm && npm run build:types"
   },
   "peerDependencies": {
-    "@privy-io/react-auth": ">=1.33.x",
-    "@privy-io/wagmi-connector": ">=0.1.8",
+    "@privy-io/react-auth": "1.55.1",
+    "@privy-io/wagmi-connector": "0.1.12",
     "@wagmi/core": ">=1.3.x",
     "react": ">=17",
     "react-dom": ">=17",
@@ -64,8 +64,8 @@
     "ethers": "5.7.2"
   },
   "devDependencies": {
-    "@privy-io/react-auth": "^1.33.0",
-    "@privy-io/wagmi-connector": "0.1.5-beta.3",
+    "@privy-io/react-auth": "1.55.1",
+    "@privy-io/wagmi-connector": "0.1.12",
     "@types/react": "^18.2.0",
     "typescript": "^5.2.2",
     "viem": "^1.16.6",
